@@ -1,0 +1,77 @@
+.clip1::before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2f385a;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3),0 7px 21px 0 rgba(0,0,0,0.20);
+    clip-path: circle(3% at 100% 20%);
+    z-index: -1;
+}
+
+.clip1::after{
+    content: '';
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2f385a;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3),0 7px 21px 0 rgba(0,0,0,0.20);
+    clip-path: circle(7% at 35% 40%);
+    z-index: -1;
+}
+.clip2::before{
+    content: '';
+    position: absolute;
+    top: 780px;
+    right: 30px;
+    width: 100%;
+    height: 100%;
+    background: #2f385a;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3),0 7px 21px 0 rgba(0,0,0,0.20);
+    clip-path: circle(7% at 80% 40%);
+    z-index: -1;
+}
+.clip2::after{
+    content: '';
+    position: absolute;
+    top: 1120px;
+    right: 30px;
+    width: 100%;
+    height: 100%;
+    background: #2f385a;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3),0 7px 21px 0 rgba(0,0,0,0.20);
+    clip-path: circle(3% at 20% 40%);
+    z-index: -1;
+}
+.clip3::after{
+    content: '';
+    position: absolute;
+    top: 1740px;
+    right: 30px;
+    width: 100%;
+    height: 100%;
+    background: #2f385a;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3),0 7px 21px 0 rgba(0,0,0,0.20);
+    clip-path: circle(7% at 50% 40%);
+    z-index: -1;
+    backdrop-filter: blur(5px);
+
+}
+.clip3::before{
+    content: '';
+    position: absolute;
+    top: 2640px;
+    right: 30px;
+    width: 100%;
+    height: 100%;
+    background: #2f385a;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3),0 7px 21px 0 rgba(0,0,0,0.20);
+    clip-path: circle(5% at 17% 40%);
+    z-index: -1;
+    backdrop-filter: blur(5px);
+
+}
